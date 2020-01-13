@@ -1,0 +1,182 @@
+.app .headerBox {
+  z-index: 5000;
+  width: 100%;
+  position: fixed;
+  top: 0; }
+  .app .headerBox .a {
+    width: 100%;
+    background: #f4f4f4;
+    float: left; }
+    .app .headerBox .a .header {
+      height: 30px;
+      z-index: 889;
+      top: 0;
+      line-height: 30px; }
+      .app .headerBox .a .header .headerbaoyou {
+        float: left; }
+      .app .headerBox .a .header .headernavigation {
+        float: right; }
+        .app .headerBox .a .header .headernavigation .navigation {
+          float: left;
+          margin-left: 24px; }
+        .app .headerBox .a .header .headernavigation .navigationred {
+          float: left;
+          margin-left: 24px;
+          color: red; }
+        .app .headerBox .a .header .headernavigation .navigation i {
+          font-size: 10  px; }
+  .app .headerBox .logoBox {
+    padding-top: 47px;
+    background-color: #fff; }
+    .app .headerBox .logoBox .logoNavigation {
+      height: 44px; }
+      .app .headerBox .logoBox .logoNavigation .logo {
+        float: left;
+        line-height: 18.4px;
+        margin-top: 3px; }
+      .app .headerBox .logoBox .logoNavigation #navShow {
+        float: left; }
+        .app .headerBox .logoBox .logoNavigation #navShow .headerLi {
+          color: #000;
+          height: 50px;
+          float: left;
+          margin-left: 16px;
+          margin-right: 16px;
+          font-size: 18px;
+          text-align: center; }
+          .app .headerBox .logoBox .logoNavigation #navShow .headerLi span {
+            padding-bottom: 11px;
+            line-height: 21px; }
+.app .lunbuo {
+  width: 100%;
+  height: 100%; }
+.app #test1 {
+  height: 980px;
+  margin-top: 90px; }
+.app .layui-carousel-ind ul {
+  background-color: #fff; }
+.app .layui-carousel-ind li {
+  border-radius: 0;
+  width: 60px;
+  background-color: #666; }
+.app .commodity {
+  margin-top: 70px; }
+  .app .commodity .commodity1Box .commodity1 {
+    text-align: center; }
+.app .shoppeListBox .shoppeList {
+  padding-top: 130px;
+  text-align: center; }
+.app .shoppeListBox .shoppeList_a {
+  margin-top: 110px;
+  text-align: center; }
+  .app .shoppeListBox .shoppeList_a .shoppeList_a_List1 {
+    margin: auto;
+    width: 1050px;
+    height: 200px;
+    background-color: #920c0c; }
+    .app .shoppeListBox .shoppeList_a .shoppeList_a_List1 div {
+      background-color: rebeccapurple;
+      float: left; }
+.app .bs-magnifying {
+  margin-top: 120px; }
+  .app .bs-magnifying .magnifyingBox {
+    text-align: center; }
+    .app .bs-magnifying .magnifyingBox .magnifyingBoxli3 {
+      height: 388px; }
+      .app .bs-magnifying .magnifyingBox .magnifyingBoxli3 .b {
+        width: 1203px;
+        height: 388px;
+        margin: auto; }
+        .app .bs-magnifying .magnifyingBox .magnifyingBoxli3 .b .magnifyingBoxli3_1 {
+          width: 382px;
+          overflow: hidden;
+          float: left;
+          position: relative;
+          margin-right: 27px; }
+          .app .bs-magnifying .magnifyingBox .magnifyingBoxli3 .b .magnifyingBoxli3_1 .magnifyingBoxli3_1_a .magnifyingBoxli3_1_a_img:hover {
+            transition: .5s;
+            transform: scale(1.03); }
+          .app .bs-magnifying .magnifyingBox .magnifyingBoxli3 .b .magnifyingBoxli3_1 .magnifyingBoxli3_1_text {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            margin-top: 280px; }
+        .app .bs-magnifying .magnifyingBox .magnifyingBoxli3 .b .magnifyingBoxli3_1_end {
+          width: 382px;
+          overflow: hidden;
+          float: right;
+          position: relative; }
+          .app .bs-magnifying .magnifyingBox .magnifyingBoxli3 .b .magnifyingBoxli3_1_end .magnifyingBoxli3_1_a .magnifyingBoxli3_1_a_img:hover {
+            transition: .5s;
+            transform: scale(1.03); }
+          .app .bs-magnifying .magnifyingBox .magnifyingBoxli3 .b .magnifyingBoxli3_1_end .magnifyingBoxli3_1_text {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            margin-top: 280px; }
+    .app .bs-magnifying .magnifyingBox .magnifyingBoxlixia {
+      margin-top: 24px; }
+      .app .bs-magnifying .magnifyingBox .magnifyingBoxlixia .magnifyingBoxlixia_img_box .magnifyingBoxlixia_img_boxcont {
+        position: relative;
+        margin: auto;
+        width: 1203px;
+        overflow: hidden; }
+        .app .bs-magnifying .magnifyingBox .magnifyingBoxlixia .magnifyingBoxlixia_img_box .magnifyingBoxlixia_img_boxcont .magnifyingBoxlixia_img_box_a .magnifyingBoxlixia_img {
+          width: 1203px; }
+        .app .bs-magnifying .magnifyingBox .magnifyingBoxlixia .magnifyingBoxlixia_img_box .magnifyingBoxlixia_img_boxcont .magnifyingBoxlixia_img_box_a .magnifyingBoxlixia_img:hover {
+          transition: .5s;
+          transform: scale(1.03); }
+        .app .bs-magnifying .magnifyingBox .magnifyingBoxlixia .magnifyingBoxlixia_img_box .magnifyingBoxlixia_img_boxcont .magnifyingBoxlixia_Text {
+          position: absolute;
+          top: 150px;
+          left: 220px; }
+.app .bs-rows {
+  margin-top: 200px; }
+  .app .bs-rows .bs-rows_headline {
+    margin-bottom: 50px;
+    text-align: center; }
+  .app .bs-rows .bs-rows-good-Box {
+    margin: auto;
+    width: 990px; }
+    .app .bs-rows .bs-rows-good-Box .bs-rows-good1 {
+      float: left;
+      margin-right: 17px;
+      overflow: hidden; }
+      .app .bs-rows .bs-rows-good-Box .bs-rows-good1 .bs-rows-good1-a .bs-rows-good1-img1:hover {
+        transition: .5s;
+        transform: scale(1.03); }
+      .app .bs-rows .bs-rows-good-Box .bs-rows-good1 .shopping {
+        margin-top: 25px;
+        font-size: 20px;
+        background-size: 18px; }
+    .app .bs-rows .bs-rows-good-Box .bs-rows-good2 {
+      float: left;
+      overflow: hidden; }
+      .app .bs-rows .bs-rows-good-Box .bs-rows-good2 .bs-rows-good1-a .bs-rows-good1-img2:hover {
+        transition: .5s;
+        transform: scale(1.03); }
+      .app .bs-rows .bs-rows-good-Box .bs-rows-good2 .shopping {
+        margin-top: 25px;
+        font-size: 20px; }
+.app .bs-main-cont .bs-main-cont-box {
+  width: 1200px;
+  overflow: hidden; }
+  .app .bs-main-cont .bs-main-cont-box .bs-main-cont-box-a .bs-main-cont-box-a-img {
+    margin-top: 120px; }
+  .app .bs-main-cont .bs-main-cont-box .bs-main-cont-box-a .bs-main-cont-box-a-img:hover {
+    transition: .5s;
+    transform: scale(1.03); }
+.app .bs-main-cont .bs-main-cont-text {
+  width: 300px;
+  margin-top: 25px;
+  font-size: 20px; }
+  .app .bs-main-cont .bs-main-cont-text span {
+    font-size: 20px; }
+
+/*# sourceMappingURL=index1.css.map */

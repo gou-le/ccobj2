@@ -1,0 +1,84 @@
+   //尾部
+    .footer{
+        .footerTop{
+            margin: 45px 0;
+            height: 214px;
+            text-align: center;
+            .footerTop-r{
+             float: left;
+                 padding-top: 50px;
+                width: 280px;
+                p{
+                    height: 16px;
+                    font-size: 14px;
+                }
+                .luke{
+                    width: 150px;
+                    height: 30px;
+                    line-height: 30px;
+                    background-color: #000;
+                    color: #fff;
+                    margin: auto;
+                }
+            }
+            .footerNext{
+             height: 100%;
+             width: 1px;
+             background-color: #000000;
+             float: left;
+            }
+            .footerBody{
+                width: 558px;
+                padding: 0 80px;
+                float: left;
+                padding-top: 50px    ;
+                display: flex;
+               .footerBody-box{
+                   width: 124px;
+                   height: 124px;
+                   margin: auto;
+                   font-size: 14px;
+               }
+               p{
+                   font-weight: 700;
+               }
+            }
+            .footerTop-l{    
+             float: left;
+                 padding-top: 50px;
+                width: 280px;
+                p{
+                    height: 16px;
+                    font-size: 14px;
+                }
+                .luke{
+                    width: 150px;
+                    height: 30px;
+                    line-height: 30px;
+                    background-color: #000;
+                    color: #fff;
+                    margin: auto;
+                }
+            }
+ 
+        }
+        .footerZhong{
+            height: 138px;
+            line-height: 138px;
+            display: flex;
+            border-top: 1px solid #000;
+            .footerZhong-li{
+                width: 216px;
+                height: 138px;
+                margin: auto;
+                text-align: center;
+                display: flex;
+            }
+        }
+        .footer-Next{
+            text-align: center;
+            padding-top: 20px;
+        }
+    }
+    
+   

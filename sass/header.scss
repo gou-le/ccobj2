@@ -1,0 +1,67 @@
+   //头部
+   .headerBox{
+    z-index: 5000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    .a{
+        width: 100%;
+        background: #f4f4f4;
+        float: left;
+        .header{
+            height: 30px;
+            z-index: 889;
+            top: 0;
+            line-height: 30px;
+        .headerbaoyou{
+                float: left;
+            }
+        .headernavigation{
+                float: right;
+                .navigation{
+                    float: left;
+                    margin-left: 24px;
+             }
+             .navigationred{
+                float: left;
+                margin-left: 24px;
+                color: red;
+             }
+             .navigation{
+                 i{
+                     font-size: 10  px;
+                 }
+             }
+        }
+     }
+    }
+ .logoBox{  
+    padding-top: 47px;
+    background-color: #fff;
+    .logoNavigation{
+
+       height: 44px;
+       .logo{
+           float: left;
+           line-height: 18.4px;
+           margin-top: 3px;
+       }
+       #navShow{
+           float: left;
+           .headerLi{
+               color: #000;
+               height: 50px;
+               float: left;
+               margin-left: 16px;
+               margin-right: 16px;
+               font-size: 18px;
+               text-align: center;
+               span{
+                   padding-bottom: 11px;
+                   line-height: 21px;
+               }
+           }
+       }
+    }
+}
+}

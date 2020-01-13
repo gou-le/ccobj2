@@ -1,0 +1,35 @@
+.app {
+  font-size: 14px; }
+  .app .bodtBox {
+    margin-top: 97px; }
+    .app .bodtBox .text {
+      height: 36px;
+      margin-bottom: 6px;
+      line-height: 36px; }
+    .app .bodtBox .doogListbox {
+      margin-top: 24px; }
+    .app .bodtBox .doogList_Box_rigth {
+      float: left;
+      width: 155px;
+      padding-left: 20px; }
+    .app .bodtBox .doogList_Box_left {
+      float: left; }
+      .app .bodtBox .doogList_Box_left .select {
+        margin: auto;
+        height: 30px;
+        padding-bottom: 10px; }
+      .app .bodtBox .doogList_Box_left .doogLogoList_box {
+        margin-top: 9px; }
+        .app .bodtBox .doogList_Box_left .doogLogoList_box .doogLogoList_ul {
+          width: 1065px;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-flex-wrap: wrap;
+          flex-wrap: wrap; }
+          .app .bodtBox .doogList_Box_left .doogLogoList_box .doogLogoList_ul li {
+            width: 333px;
+            height: 600px;
+            margin-bottom: 36px;
+            margin: auto; }
+
+/*# sourceMappingURL=doogParticulars.css.map */

@@ -1,0 +1,58 @@
+.app{
+
+
+
+    //注册
+    .backimg{
+        height: 800px;
+        margin-top: 100px;
+        background-image: url('https://cdn.bestseller.com.cn/assets/pc/JACKJONES/images/loginBottom.jpg');
+        .backimg_box{
+            display: flex;
+            .register_box{
+                margin-left: 815px;
+                width: 400px;
+                height: 470px;
+                margin-top: 200px;
+                background-color: #fff;
+                p{
+                    text-align: center;
+                    height: 50px;
+                    font-size: 24px;
+                    line-height: 50px;
+                    background-color:rgb(230, 230, 230);
+                    
+                }
+              
+                .register_box_text{
+                    width: 280px;
+                    height: 266px;
+                    margin: 30px 57px;
+
+                    .registe_name{
+                        height: 24px;
+                        margin: 1px;
+                        padding-bottom: 24px;
+                        border: 1px #f4f4f4 solid ;
+                        margin-bottom: 20px;
+                    }
+                    .verificationCode{
+                        height: 24px;
+                        margin: 1px;
+                        padding-bottom: 24px;
+                        border: 1px #f4f4f4 solid ;
+                        margin-bottom: 20px;
+                    }
+                    .register_btn_box{
+                        color: seashell;
+                        height: 46px;
+                        line-height: 46px;                        background-color: #000000;
+                        text-align: center;
+                        padding-bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,294 @@
+
+.app{
+    // position: relative;
+    .headerBox{
+        z-index: 5000;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        // margin-left: 0;
+        // margin-bottom: 0;
+        // margin-right: 0;
+        // margin: auto;
+        .a{
+            width: 100%;
+            background: #f4f4f4;
+            float: left;
+            .header{
+                height: 30px;
+                z-index: 889;
+                top: 0;
+                line-height: 30px;
+            .headerbaoyou{
+                    float: left;
+                }
+            .headernavigation{
+                    float: right;
+                    .navigation{
+                        float: left;
+                        margin-left: 24px;
+                 }
+                 .navigationred{
+                    float: left;
+                    margin-left: 24px;
+                    color: red;
+                 }
+                 .navigation{
+                     i{
+                         font-size: 10  px;
+                     }
+                 }
+            }
+         }
+        }
+     .logoBox{  
+        padding-top: 47px;
+        background-color: #fff;
+        .logoNavigation{
+
+           height: 44px;
+           .logo{
+               float: left;
+               line-height: 18.4px;
+               margin-top: 3px;
+           }
+           #navShow{
+               float: left;
+               .headerLi{
+                   color: #000;
+                   height: 50px;
+                   float: left;
+                   margin-left: 16px;
+                   margin-right: 16px;
+                   font-size: 18px;
+                   text-align: center;
+                   span{
+                       padding-bottom: 11px;
+                       line-height: 21px;
+                   }
+               }
+           }
+        }
+    }
+    }
+    .lunbuo{
+        width: 100%;
+        height: 100%;
+    }
+     #test1{
+         width: 100%;
+        height: 980px;
+        margin-top: 90px;
+     }
+     .layui-carousel-ind{
+         
+        
+        ul{
+            background-color:#fff;
+        }
+         li{
+             border-radius: 0;
+             width: 60px;
+             background-color:#666;
+             
+
+         }
+     }
+     .commodity{
+         margin-top: 70px;
+         .commodity1Box{
+             .commodity1{
+                text-align: center;
+             }  
+         }
+     }
+     .shoppeListBox{
+             .shoppeList{
+            padding-top: 130px;
+            text-align: center;
+             }
+             .shoppeList_a{
+                 margin-top: 110px;
+                text-align: center;
+                .shoppeList_a_List1{
+                    margin: auto;
+                  width: 1050px;
+                    height: 200px;
+                    background-color: rgb(146, 12, 12);
+                    div{
+                        background-color: rebeccapurple;
+                        // margin: auto;s
+                        float: left;
+                    }
+                 }
+             }   
+     }  
+   
+
+     .bs-magnifying{
+         margin-top: 120px;
+         .magnifyingBox{
+             text-align: center;
+            .magnifyingBoxli3{
+                height: 388px;
+               
+                .b{
+                    width: 1203px;
+                    height: 388px;
+                    // background-color: rebeccapurple;
+                    margin: auto;
+                    .magnifyingBoxli3_1{
+                        width: 382px;
+                        overflow: hidden;
+                        float: left;
+                        position: relative;
+                        margin-right: 27px;
+                        .magnifyingBoxli3_1_a{
+                            .magnifyingBoxli3_1_a_img:hover{
+                                transition: .5s;
+                                transform: scale(1.03);
+                            }
+                        }
+                        .magnifyingBoxli3_1_text{
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            right: 0;
+                            bottom: 0;
+                            margin: auto;
+                            margin-top: 280px;
+                        }
+    
+                    }
+                    .magnifyingBoxli3_1_end{
+                        width: 382px;
+                        overflow: hidden;
+                        float: right;
+                        position: relative;
+                        .magnifyingBoxli3_1_a{
+                            .magnifyingBoxli3_1_a_img:hover{
+                                transition: .5s;
+                                transform: scale(1.03);
+                            }
+                        }
+                        .magnifyingBoxli3_1_text{
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            right: 0;
+                            bottom: 0;
+                            margin: auto;
+                            margin-top: 280px;
+                        }
+                    }
+                    
+                    
+                }
+                
+            }
+            .magnifyingBoxlixia{
+                margin-top: 24px;
+                .magnifyingBoxlixia_img_box{
+                    .magnifyingBoxlixia_img_boxcont{
+                        position: relative;
+                        margin: auto;
+                        width: 1203px;
+                        overflow: hidden;
+                        .magnifyingBoxlixia_img_box_a{
+                            .magnifyingBoxlixia_img{
+                                width: 1203px;
+                            }
+                             .magnifyingBoxlixia_img:hover{
+                                    transition: .5s;
+                                    transform: scale(1.03);
+                            }
+                        } 
+                        .magnifyingBoxlixia_Text{
+                            position: absolute;
+                            top: 150px;
+                            left: 220px;
+                        }
+                    }
+                    
+                }
+            }
+
+         }
+     }
+
+   .bs-rows{
+       margin-top: 200px;
+       .bs-rows_headline{
+           margin-bottom: 50px;
+           text-align: center;
+       }
+       .bs-rows-good-Box{
+           margin: auto;
+           width: 990px;
+            .bs-rows-good1{
+               float: left;
+               margin-right: 17px;
+                overflow: hidden;
+               .bs-rows-good1-a{
+                   .bs-rows-good1-img1:hover{
+                        transition: .5s;
+                        transform: scale(1.03);
+                   }
+               }
+               .shopping{
+                   margin-top: 25px;
+                   font-size: 20px;
+                //    background-image: url('../img/购物车.png');
+                   background-size: 18px;
+                   
+               }
+            }
+            .bs-rows-good2{
+                float: left;
+                overflow: hidden;
+                .bs-rows-good1-a{
+                    .bs-rows-good1-img2:hover{
+                         transition: .5s;
+                         transform: scale(1.03);
+                    }
+                }
+                .shopping{
+                    margin-top: 25px;
+                    font-size: 20px;
+                }
+             }
+         }
+   }
+
+   .bs-main-cont{
+
+       .bs-main-cont-box{
+        width: 1200px;
+        // height: 700px;
+        overflow: hidden;
+           .bs-main-cont-box-a{
+               .bs-main-cont-box-a-img{
+                   margin-top: 120px;
+               }
+               .bs-main-cont-box-a-img:hover{
+                         transition: .5s;
+                         transform: scale(1.03);
+               }
+           }
+       }
+       .bs-main-cont-text{
+           width: 300px;
+        margin-top: 25px;
+        font-size: 20px;
+           span{
+               font-size: 20px  ;
+               
+            }
+       }
+   }
+
+
+//    transition: .5s;
+//    transform: scale(1.03);
+
+}

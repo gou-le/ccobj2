@@ -1,0 +1,51 @@
+.headerBox {
+  z-index: 5000;
+  width: 100%;
+  position: fixed;
+  top: 0; }
+  .headerBox .a {
+    width: 100%;
+    background: #f4f4f4;
+    float: left; }
+    .headerBox .a .header {
+      height: 30px;
+      z-index: 889;
+      top: 0;
+      line-height: 30px; }
+      .headerBox .a .header .headerbaoyou {
+        float: left; }
+      .headerBox .a .header .headernavigation {
+        float: right; }
+        .headerBox .a .header .headernavigation .navigation {
+          float: left;
+          margin-left: 24px; }
+        .headerBox .a .header .headernavigation .navigationred {
+          float: left;
+          margin-left: 24px;
+          color: red; }
+        .headerBox .a .header .headernavigation .navigation i {
+          font-size: 10  px; }
+  .headerBox .logoBox {
+    padding-top: 47px;
+    background-color: #fff; }
+    .headerBox .logoBox .logoNavigation {
+      height: 44px; }
+      .headerBox .logoBox .logoNavigation .logo {
+        float: left;
+        line-height: 18.4px;
+        margin-top: 3px; }
+      .headerBox .logoBox .logoNavigation #navShow {
+        float: left; }
+        .headerBox .logoBox .logoNavigation #navShow .headerLi {
+          color: #000;
+          height: 50px;
+          float: left;
+          margin-left: 16px;
+          margin-right: 16px;
+          font-size: 18px;
+          text-align: center; }
+          .headerBox .logoBox .logoNavigation #navShow .headerLi span {
+            padding-bottom: 11px;
+            line-height: 21px; }
+
+/*# sourceMappingURL=header.css.map */

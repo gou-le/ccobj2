@@ -1,0 +1,49 @@
+.app{
+    font-size: 14px;
+    .bodtBox{
+        margin-top: 97px;
+        .text{
+            height: 36px;
+            margin-bottom: 6px;
+            line-height: 36px;
+        }
+        .doogListbox{
+            margin-top: 24px;
+        }
+        .doogList_Box_rigth{
+            float: left;
+            width: 155px;
+            padding-left: 20px;
+            
+        }
+        .doogList_Box_left{
+            float: left;
+           
+            .select{
+                margin: auto;
+                height: 30px;
+                padding-bottom: 10px;
+            }
+            .doogLogoList_box{
+                margin-top: 9px;
+                .doogLogoList_ul{
+                    width: 1065px;
+                    display: -webkit-flex;
+
+                    display:flex;
+        
+                    -webkit-flex-wrap:wrap;
+        
+                    flex-wrap:wrap;
+                    
+                    li{
+                        width: 333px;
+                        height: 600px;
+                        margin-bottom: 36px;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+}

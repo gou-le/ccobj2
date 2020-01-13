@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/iti.css">
+    <link rel="stylesheet" href="../css/shopping.css">
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    
+</head>
+<body>
+    <div class="app">
+        <!-- 头 -->
+        <div class="headerBox cl"></div>
+        <div class="w container cl">
+            <div class="cartTop">
+                <div class="title">首页 / 购物车</div>
+                <div class="titleNext">购物车</div>
+                <div class="buyStep">
+                    <span>1.查看购物车</span>
+                    <span style="border-bottom: 12px solid rgb(229, 229, 229);">2.填写并核对订单</span>
+                    <span style="border-bottom: 12px solid rgb(229, 229, 229);">3.成功提交订单</span >
+                </div>
+                <div class="w box ">
+                    <div class="w cartnva ">
+                        <div style="height: 36px; font-size:16px;font-weight: 700;line-height: 36px; margin-top: 20px;" class="订单摘要">订单摘要</div>
+                        <div class="cartN ">
+                            <div class="flip cl">
+                                <span style="float: right; display: block; font-size: 14px ;height: 32px; line-height: 32px;" >1个结果
+                                </span>
+                            </div>
+                            <div  class="goodsListTable ">
+                               <ul style="height: 36px;">
+                                   <li style="width: 233px;margin-left: 10px;">
+                                    <input class="all" type="checkbox"> 全选
+                                   </li>
+                                   <li style="text-align: center; width: 206px;">商品描述</li>
+                                   <li style="text-align: center; width: 200px;"> 颜色</li>
+                                   <li style="text-align: center; width: 180px;">尺码</li>
+                                   <li style="text-align: center; width: 181px;">数量</li>
+                                   <li style="text-align: center; width: 129px;">单价</li>
+                                   <li style="text-align: center; width: 130px;">总价</li>
+                               </ul>
+                            </div>
+                            <table class="tableText ">
+                                <thead style="width: 1273px; display: block;">
+                                    <tr id="shoppingList" style="width: 100%; display: block;">
+
+                                        <!-- <td style="width: 100%; display: block;">
+                                            <div class="" style="margin:10px 0;height: 152px;">
+                                                <div class="srcimg ">
+                                                    <input type="checkbox" style="display: block; width: 15px;height: 15px; float: left; margin-top: 75px;margin-left: 55px;">
+                                                    <img style="width: 100px;height: 150px;float: left;display: block;" src="https://cdn.bestseller.com.cn/goodsImagePC/JACKJONES/220121528/220121528E03/360640//220121528E03_p1.jpg" alt="">
+                                                </div>
+                                                <div class="doogtext">
+                                                    秋冬男印花休闲长袖立领连帽夹克外套
+                                                </div>
+                                                <div class="doogColor">
+                                                    <select  id="goodsColor_select" style=" width: 130px;
+                                                    height: 28px;">
+                                                        <option value="220121528E42">E42雾霾蓝</option>
+                                                        <option value="220121528E42">E03黑</option>
+                                                    </select>
+                                                </div>
+                                                <div class="doogColor size">
+                                                    <select  id="goodsColor_size" style=" width: 130px;
+                                                    height: 28px;">
+                                                    <option>--请选择尺码--</option>
+                                                        <option value="220121528E42">165/88A/XS</option>
+                                                        <option value="220121528E42">170/92A/S</option>
+                                                    </select>
+                                                </div>
+                                                <div class="doogColor doogNum ">
+                                                    <div class="num">1</div>
+                                                    <span  id="add">+</span>
+                                                        <span id="subtract">-</span>
+                                                </div>
+                                                <div class="doogColor price">
+                                                    <span>￥:200</span>
+                                                </div>
+                                                <div class="doogColor total">
+                                                    <span>￥:200</span>
+                                                    <div class="delete" style=" width: 120px;height: 30px;border: 1px solid silver;margin-top: 70px;text-align: center;line-height: 30px;font-size: 16px;">从购物车里移除</div>
+                                                </div>
+                                            </div>
+                                            
+                                        </td> -->
+                                      
+                                    </tr>
+                                    
+                                </thead>
+                            </table>
+                            <!-- 多余的全选 -->
+                            <div  class="goodsListTable " style="margin-top: 10px;">
+                                <ul style="height: 36px;">
+                                    <li style="width: 233px;margin-left: 10px;">
+                                     <input class="all" type="checkbox"> 全选
+                                    </li>
+                                   
+                                </ul>
+                             </div>
+                             <!-- 结算 -->
+                             <div  class="  settlement">
+                                <ul id="jieshuan" style="height: 36px;">
+                                    <li style="width: 233px;margin-left: 10px; float: left;">
+                                        <a id="" style="width: 90px;height: 30px;">继续购物</a>
+                                    </li>
+                                    <li id="settle" style="text-align: center; width: 85px;float: right;  background-color: #000; color: #fff; font-size: 16px;">结算</li>
+                                    <li style="text-align: center; width: 200px;float: right; font-size: 14px; font-weight: 700;"> 商品总金额：<span id="priceall"></span></li>
+                                    <li style="text-align: center; width: 180px;float: right; color: red;">应付金额：<span id="oughtPrice"></span></li>
+                                    <li style="text-align: center; width: 181px;float: right; color: red;">花费的积分：</li>
+                                </ul>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="xian" style="border-top: #000 solid 1px; margin-top: 50px;"></div>
+            </div>
+        </div>
+        <!-- 尾 -->
+        <div class="footer cl"></div>
+    </div>
+</body>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../layui/layui.js"></script>
+<script src="../js/shopping.js"></script>
+</html>

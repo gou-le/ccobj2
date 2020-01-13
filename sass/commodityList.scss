@@ -1,0 +1,285 @@
+.app{
+    color: #000000;
+    font-size: 14px;
+    .navigationIndex{
+        height: 36px;
+        margin-top: 97px;
+        padding-bottom: 6px;
+        span{
+            line-height: 36px;
+            font-size: 14px;
+        }
+    }
+    //商品详情+放大器BOX
+    .particulars{
+        height: 780px;
+        .left_box{
+            float: left;
+            width: 1124px;
+            height: 738px;
+            .left_box_list{
+                float: left;
+                width: 108px;
+                height: 738px;
+                padding-right: 20px;
+                ul{
+                    li{
+                        margin-bottom: 12px;
+                    }
+                }
+            }
+            .left_box_zhong{
+                position: relative;
+                float: left;
+                img{
+                    border: 1px #000000 solid;
+                    width: 464px;
+                    height: 736px;
+                }
+                .shade{//显隐效果
+                    top: 0;
+                    position: absolute;
+                    width: 232px;
+                    height: 242px;
+                    background-color: rgba(225,225,225, 0.5);
+                    display: none;
+                }
+                .shade_magnifying{//放大镜
+                    width: 670px;
+                    height: 736px;
+                    overflow: hidden;
+                    position: absolute;
+                    top: 0;
+                    right: -680px;
+                    display: none;
+                img{
+                    position: absolute;
+                    width: 928px;
+                    height: 2208px ;
+                    border: 1px #000000 solid;
+                    // background-position: 200px 200px;
+                    top: 0;
+                    left: 0;
+                }
+                }
+            }
+           .left_box_right{
+               float: left;
+               width: 480px;
+               height: 616px;
+            //    margin: 0 32px 0 20px;
+                margin-right: 30px;
+                margin-left: 20px;
+                .left_box_right_text{
+                    width: 460px;
+                    height: 48px;
+                    padding-left: 20px;
+                    margin-bottom: 18px;
+                    font-size: 22px;
+                    
+                }
+           }
+           .doogcode{
+               width: 460px;
+               height: 14px;
+               padding-left: 20px;
+               margin-bottom: 18px;
+               span{
+                   float: left;
+                   font-size: 14px;
+                   line-height: 14px;
+                   color: rgb(153, 153, 153);
+               }
+           }
+           .size{
+               height: 126px;
+               padding-left: 20px;
+                .size_left{
+                    float: left;
+                    width: 76px;
+                    height: 126px;
+                    color: rgb(153, 153, 153);
+                }
+                .size_right{
+                    float: left;
+                    width: 384px;
+                    height: 126px;
+                    li{
+                        float: left;
+                        // line-height: ;
+                        height: 28px;
+                        line-height: 25px;
+                        border: 1px dashed #999;
+                        padding: 0 5px;
+                        margin-right: 10px;
+                        margin-bottom: 10px;
+                    }
+                    .size_Bor{
+                        font-size: 14px !important;
+                        border:1px #000   solid;
+                    }
+                }
+
+            }
+            .select{
+                height: 92px;
+               padding-left: 20px;
+               margin-bottom: 18px;
+                .select_left{
+                    float: left;
+                    width: 76px;
+                    height: 92px;
+                    line-height: 92px;
+                    color: rgb(153, 153, 153);
+                }
+                .select_right{
+                    float: left;
+                    width: 384px;
+                    height: 92px;
+                    li{
+                        float: left;
+                        width: 52px;
+                        height: 83px;
+                        border: #000000 2px solid;
+                        margin-right: 10px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+            .doognum{
+                padding-left: 20px;
+                height: 47px;
+                .doognum_left{
+                    float: left;
+                    width: 76px;
+                    height: 47px;
+                    line-height: 47px;
+                    color: rgb(153, 153, 153);
+                }
+                .numBox{
+                    float: left;
+                    width: 60px;
+                    height: 45px;
+                    line-height: 45px;
+                    border: #000000 1px solid;
+                    text-align: center;
+                    .operation{
+                        width: 16px;
+                        height: 45px;
+                        float: right;
+                        
+                        .add{
+                            border: solid 1px rgb(153, 153, 153);
+                            width: 14px;
+                            height: 21px;
+                            line-height: 22px;
+                            background-color: #f3f3f3;
+                            color: #999;
+                            font-weight: 400;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .repertory{
+                    padding-left: 20px;
+                    float: left;
+                    margin-top: 10px;
+                }
+                .repertory_num{
+                    float: left;
+                    margin: 10px;
+                    font-size: 14px;
+                    color: red;
+                    
+                }
+                .repertory_p{
+                    float: left;
+                    margin-top: 10px;
+                    font-size: 14px;
+                }
+            }
+            .purchase_box{
+                height: 64px;
+                margin-top: 60px;
+                padding-left: 20px;
+                .addCart{
+                    width: 224px;
+                    height: 46px;
+                    margin-top: 14px;
+                    margin-right: 8px;
+                    line-height: 46px;
+                    text-align: center;
+                    border: #000000 1px solid;
+                    float: left;
+                }
+                .buyNow{
+                    width: 224px;
+                    height: 46px;
+                    margin-top: 14px;
+                    line-height: 46px;
+                    text-align: center;
+                    border: #000000 1px solid;
+                    color: #f3f3f3;
+                    background-color: #000000;
+                    float: left;
+                }
+            }
+        }
+        .right_box{
+            float: left;
+            padding-left: 20px;
+            height: 760px;
+            border-left: dashed 1px rgb(153, 153, 153);;
+            .chooseHot{
+                margin-top: 10px;
+                padding :0 20px;
+                .goNext{
+                    float: left;
+                    width: 35px;
+                    height: 14px;
+                    margin-right: 25px;
+                    background-image: url('../img/xia.png');
+                    background-repeat: no-repeat;
+                    background-size: 20px 14px;
+                }
+                .goPrevious{
+                    float: left;
+                    width: 35px;
+                    height: 14px;
+                    background-image: url('../img/shang.png');
+                    background-repeat: no-repeat;
+                    background-size: 20px 14px;
+                }
+            }
+        }
+    }
+    //一条横线没什么用
+    .unimportant{
+       div{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-bottom: solid 1px rgb(153, 153, 153);
+       }
+    }
+    //商品列表
+    .doogList_Box{
+        .doogList_Box_left{
+            float: left;
+            width: 155px;
+            padding-left: 20px;
+            
+        }
+        .doogList_Box_zhong{
+            float: left;
+            margin: 0px 100px;
+            width: 750px;
+        }
+        .doogList_Box_rigth{
+            float: left;
+            padding-left: 20px;
+            width: 134px;
+            border-left: dashed 1px #999999;
+        }
+    }
+    
+}
